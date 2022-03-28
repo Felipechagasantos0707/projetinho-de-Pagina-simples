@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@700 & display=swap');
+
+body{
+    background-image:linear-gradient(to right,#2F1B59,#5A0FA6);
+    color: #F2F2F2;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:20px;
+}
+
+.menu{
+
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-weight:600;
+
+}
+
+.menu-items{
+    text-decoration: none;
+    padding:10px;
+    background-color: #3E0973;
+    border: 2px solid #3E0973;
+    border-radius: 10px;
+    color: rgb(231, 231, 231);
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.253);
+  
+}
+
+.menu-items:hover{
+    
+    background-color:#F2AE30;   
+    border: 2px solid #F2AE30;
+   
+    
+   
+   
+
+}
+
+.minha-foto{
+ 
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #F2AE30;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.253);
+}
+
+.div-foto{
+    border-top: 1px solid  #F2AE30;
+    border-right-width: 20px;
+    margin-top: 30px;
+    text-align: center;
+    padding-top:20px;
+    
+}
+
+
+.Enunciado{
+    color: white;
+    text-align: center;
+    font-family: 'Roboto' arial;
+    line-height:50px;
+
+}  
+
+
+.sobre-mim{
+    font-size: 25px;
+    color: #F2AE30;
+    line-height:50px;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.185);
+}
+
+.sobre-mim p{
+
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.formacao{
+    font-size: 25px;
+    color: #F2AE30;
+    line-height:50px;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.185);
+}
+
+.formação p{
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.cursos p{
+    font-size: 23px;
+    font-weight: 400;
+}
+.cursos{
+    font-size: 25px;
+    color: #F2AE30;
+    line-height:50px;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.185);
+}
+
+.secao1{
+    border: 3px solid #F2AE30;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.349);
+}
+
+.secao2{
+    border: 3px solid #F2AE30;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top:5px;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.349);
+}
+.secao3{
+    border: 3px solid #F2AE30;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top:5px;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.349);
+}
+
+.redes-sociais{
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.redes-sociais p{
+    color: white;
+    text-decoration: none;
+
+}
